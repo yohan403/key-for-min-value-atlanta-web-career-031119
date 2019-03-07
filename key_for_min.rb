@@ -11,8 +11,11 @@ def key_for_min_value(name_hash)
     name_hash.collect do |key,value|
       array.push(value)
     end
+    
+    value1 = array[0]
+    array.collect do |item|
+      
   end
-  puts array
 end
 
 key_for_min_value(hash)

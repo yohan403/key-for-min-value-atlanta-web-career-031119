@@ -16,9 +16,9 @@ def key_for_min_value(name_hash)
       if nest[1] <= initial_val
         initial_val = nest[1]
         least_key = nest[0]
-        puts least_key
       end
     end
+    return least_key
   end
 end
 

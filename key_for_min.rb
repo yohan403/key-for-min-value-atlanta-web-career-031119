@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     end
     initial_val = array[0][1]
     array.collect do |nest|
-      puts nest[0]
+      puts nest[1]
     end
   end
 end

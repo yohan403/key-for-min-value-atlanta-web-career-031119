@@ -17,7 +17,6 @@ def key_for_min_value(name_hash)
         least_val = nest[0]
       end
     end
-    puts least_val
   end
 end
 

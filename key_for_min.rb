@@ -13,4 +13,4 @@ def key_for_min_value(name_hash)
   end
 end
 
-puts key_for_min_value(hash)
+puts key_for_min_value(hash).inspect

@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     return nil
   else
     name_hash.collect do |key,value|
-      [key,value]
+      array = [key,value]
     end
   end
 end

@@ -18,6 +18,7 @@ def key_for_min_value(name_hash)
         lst_value = value
         return lst_value
       end
+    end
   end
 end
 

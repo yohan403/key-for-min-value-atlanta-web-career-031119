@@ -12,9 +12,12 @@ def key_for_min_value(name_hash)
       array.push(value)
     end
     
-    value1 = array[0]
+    lst_value = array[0]
     array.collect do |item|
-      
+      if value < lst_value
+        lst_value = value
+        return lst_value
+      end
   end
 end
 

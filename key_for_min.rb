@@ -14,8 +14,7 @@ def key_for_min_value(name_hash)
     initial_val = array[0][1]
     array.collect do |nest|
       if nest[1] < initial_val
-        least_pair = nest
-        puts least_pair
+        puts nest[1]
       end
     end
   end

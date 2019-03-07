@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
   else
     array = []
     name_hash.collect do |key,value|
-      array.push(key,value)
+      array.push(value)
     end
   end
 end

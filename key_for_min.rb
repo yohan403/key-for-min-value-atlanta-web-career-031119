@@ -8,9 +8,10 @@ def key_for_min_value(name_hash)
     return nil
   else
     name_hash.collect do |key,value|
-      value
+      array.push(value)
     end
   end
+  puts array
 end
 
-puts key_for_min_value(hash).inspect
+key_for_min_value(hash)

@@ -12,13 +12,14 @@ def key_for_min_value(name_hash)
       array.push([key,value])
     end
     initial_val = array[0][1]
-    array.collect do |nest|
+    least_key = nil
+    array.each do |nest|
       if nest[1] <= initial_val
         initial_val = nest[1]
         least_key = nest[0]
-        nest[0]
       end
     end
+    return least_key
   end
 end
 
